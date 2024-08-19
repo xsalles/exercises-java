@@ -4,16 +4,22 @@ import java.util.Scanner;
 public class Main {
     public static void main(String [] args) {
 
-        Scanner keyboard = new Scanner(System.in);
+        double celsius, resultF, resultC, fahrenheit;
+
+        Scanner sc = new Scanner(System.in);
+        
         System.out.println("Digite o valor em celsius que você deseja transformar em fahrenheit");
+        celsius = sc.nextDouble(); 
 
-        String celsiusString = keyboard.nextLine();
-        int celsius = Integer.parseInt(celsiusString);
+        System.out.println("Digite o valor de fahrenheit que você desjea transformar em celsius");
+        fahrenheit=sc.nextDouble();
+        
 
-        int result = ((celsius * 9) / 5 + 32);
-
+        resultF = ((celsius * 9) / 5 + 32);
+        resultC = ((fahrenheit - 32) * 5 / 9);
     
-        System.out.println("A temperatura em fahrenheit é: " + result + "°");
+        System.out.println("A temperatura em celsius para fahrenheit é: " + resultF + "°");
+        System.out.println("A temperatura de fahrenheit para celsius é: " + resultC + "°");
     }
 }
 
