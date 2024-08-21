@@ -14,5 +14,10 @@ public class volume {
         altura= sc.nextDouble();
 
         pi = 3.14159;
+
+        volume = (pi*(raio*raio)*altura);
+        
+        System.out.println("Resultado: " + volume);
+
     }
 }
