@@ -26,8 +26,7 @@ public class baskara {
             x1 = (double) (((-(b) + Math.sqrt(delta)) / 2*a)); 
             
             x2 = (double) (((-(b) - Math.sqrt(delta)) / 2*a)); 
-           
-            
+
             System.out.println("O valor de x1 é " + x1);
             System.out.println("O valor de x2 é " + x2);
         }  
