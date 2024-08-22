@@ -1,7 +1,7 @@
 package src;
 import java.util.Scanner;
 
-public class Main {
+public class celsius {
     public static void main(String [] args) {
 
         double celsius, resultF, resultC, fahrenheit;
