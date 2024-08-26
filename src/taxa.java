@@ -20,7 +20,7 @@ public class taxa {
         taxa = sc.nextDouble();
 
         parcela = valor + (valor * (taxa/100)*meses);
-        valordataxa = valor * (taxa/100)*meses;
+        valordataxa = valor * (taxa/100) * meses;
 
         System.out.println("O valor total que você deve pagar sobre o atraso é de R$" + (df.format(parcela)) + ", mas o valor de juros é R$"  + (df.format(valordataxa)));
     }

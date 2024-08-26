@@ -14,7 +14,6 @@ public class celsius {
         System.out.println("Digite o valor de fahrenheit que você desjea transformar em celsius");
         fahrenheit=sc.nextDouble();
         
-
         resultF = ((celsius * 9) / 5 + 32);
         resultC = ((fahrenheit - 32) * 5 / 9);
     
